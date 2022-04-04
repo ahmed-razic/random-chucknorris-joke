@@ -25,5 +25,6 @@ function getJokes(e) {
       document.querySelector('.jokes').innerHTML = output;
     }
   };
+
   xhr.send();
 }
